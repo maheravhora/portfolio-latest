@@ -27,7 +27,7 @@ const LINES = [
   { t: 'code',    text: 'agent.load_certifications(data.certs)' },
   { t: 'success', text: '  ✓  10+ certifications verified' },
   { t: 'code',    text: 'agent.load_experience(data.timeline)' },
-  { t: 'success', text: '  ✓  2+ years experience mapped' },
+  { t: 'success', text: '  ✓  1+ years experience mapped' },
   { t: 'blank' },
   { t: 'comment', text: '# Building portfolio sections...' },
   { t: 'code',    text: 'agent.build_hero()' },

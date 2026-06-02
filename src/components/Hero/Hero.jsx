@@ -94,11 +94,11 @@ const Hero = () => {
               </motion.div>
               <motion.div className="hero__arena-card hero__arena-card--exp" animate={{y:[0,6,0]}} transition={{duration:5,repeat:Infinity,ease:'easeInOut',delay:1}}>
                 <div className="hero__arena-card__icon"><FaUser/></div>
-                <div className="hero__arena-card__text"><span className="hero__arena-card__num">2+</span><span>Years<br/>Experience</span></div>
+                <div className="hero__arena-card__text"><span className="hero__arena-card__num">1+</span><span>Years<br/>Experience</span></div>
               </motion.div>
               <motion.div className="hero__arena-card hero__arena-card--proj" animate={{y:[0,-5,0]}} transition={{duration:4.5,repeat:Infinity,ease:'easeInOut',delay:.5}}>
                 <div className="hero__arena-card__icon"><FaCode/></div>
-                <div className="hero__arena-card__text"><span className="hero__arena-card__num">15+</span><span>AI Projects<br/>Delivered</span></div>
+                <div className="hero__arena-card__text"><span className="hero__arena-card__num">5+</span><span>AI Projects<br/>Delivered</span></div>
               </motion.div>
               <motion.div className="hero__arena-card hero__arena-card--open" animate={{y:[0,7,0]}} transition={{duration:4.2,repeat:Infinity,ease:'easeInOut',delay:1.5}}>
                 <div className="hero__arena-card__icon"><FaRocket/></div>

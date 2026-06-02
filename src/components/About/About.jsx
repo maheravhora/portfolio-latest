@@ -3,7 +3,7 @@ import { FaDownload, FaEnvelope } from 'react-icons/fa';
 import { personalInfo } from '../../data/resumeData';
 import './About.css';
 
-const stats = [{ num: '2+', label: 'Years Experience' }, { num: '15+', label: 'Projects Built' }, { num: '10+', label: 'Certifications' }];
+const stats = [{ num: '1+', label: 'Years Experience' }, { num: '5+', label: 'Projects Built' }, { num: '10+', label: 'Certifications' }];
 const pills = ['IBM Certified', 'Open to Work', 'Remote-First', 'AI Enthusiast', 'Python Expert'];
 
 const About = () => (

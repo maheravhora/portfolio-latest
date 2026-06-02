@@ -16,8 +16,8 @@ export const heroIntro =
   'IBM Certified Generative AI Specialist with expertise in LLMs, RAG Pipelines, Voice AI, LangChain, FastAPI and Enterprise AI Solutions. I build production-ready AI applications that solve real-world problems and drive measurable business impact.';
 
 export const heroMetrics = [
-  { label: 'Years Experience',    value: 2,   suffix: '+' },
-  { label: 'AI Projects',         value: 15,  suffix: '+' },
+  { label: 'Years Experience',    value: 1,   suffix: '+' },
+  { label: 'AI Projects',         value: 5,  suffix: '+' },
   { label: 'Certifications',      value: 10,  suffix: '+' },
   { label: 'Deployments',         value: 5,   suffix: '+' },
   { label: 'Client Satisfaction', value: 100, suffix: '%' },
@@ -73,7 +73,6 @@ export const techStack = {
     { name: 'React',       emoji: '⚛️' },
     { name: 'TensorFlow',  emoji: '🧠' },
     { name: 'MongoDB',     emoji: '🍃' },
-    { name: 'Docker',      emoji: '🐳' },
     { name: 'AWS',         emoji: '☁️' },
     { name: 'PostgreSQL',  emoji: '🐘' },
   ],
@@ -341,8 +340,8 @@ export const blogData = [
 // ─── Chatbot responses ────────────────────────────
 export const chatbotResponses = {
   skills:      "I specialize in Generative AI, LLMs, RAG pipelines, Voice AI, and Python backend development. My core stack includes LangChain, FastAPI, OpenAI, Whisper, and React. I'm IBM Certified in Generative AI Engineering! 🤖",
-  projects:    "I've built 15+ AI projects including: an AI SQL Chatbot with voice input, a Multilingual Voice Assistant supporting 10+ languages, a RAG Knowledge Base for document Q&A, StockVision AI for stock forecasting, and a TravelPackage booking platform. Which one would you like to know more about? 🚀",
-  experience:  "I have 2+ years of experience as an AI/ML Engineer. I currently freelance on Freelancer.com, previously worked as Zoho Developer at Cognition Inc, AI/ML Developer at MindSyncX Labs, and Data Science Trainee at ZiAo Development. 💼",
+  projects:    "I've built 5+ AI projects including: an AI SQL Chatbot with voice input, a Multilingual Voice Assistant supporting 10+ languages, a RAG Knowledge Base for document Q&A, StockVision AI for stock forecasting, and a TravelPackage booking platform. Which one would you like to know more about? 🚀",
+  experience:  "I have 1+ years of experience as an AI/ML Engineer. I currently freelance on Freelancer.com, previously worked as Zoho Developer at Cognition Inc, AI/ML Developer at MindSyncX Labs, and Data Science Trainee at ZiAo Development. 💼",
   available:   "Yes! I'm currently open to AI/ML freelance projects and full-time opportunities. I specialize in building production-ready AI systems. You can reach me at voramahera24@gmail.com or connect on LinkedIn! ✅",
   certifications: "I hold 10+ certifications including IBM Generative AI Engineering Professional Certificate, AWS Cloud Foundations, HP Data Science, Machine Learning Specialization (Stanford/DeepLearning.AI), Google Data Analytics, NVIDIA Deep Learning, and Microsoft Azure AI-900! 🏆",
   contact:     "You can reach me at:\n📧 voramahera24@gmail.com\n💼 LinkedIn: maheravhora-043172268\n🐙 GitHub: github.com/maheravhora\n\nI typically respond within 24 hours! 😊",
