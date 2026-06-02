@@ -1,0 +1,12 @@
+.testimonials{padding:100px 0;background:var(--bg)}
+.test__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.test__card{background:var(--card-bg);border:1px solid var(--border-hover);border-radius:var(--r-xl);padding:28px;display:flex;flex-direction:column;gap:16px;transition:var(--t-base);box-shadow:var(--shadow-sm)}
+.test__card:hover{box-shadow:var(--shadow-md);border-color:var(--blush)}
+.test__stars{display:flex;gap:3px}
+.test__star{color:#F59E0B;font-size:.85rem}
+.test__quote{font-size:.92rem;color:var(--text-secondary);line-height:1.75;font-style:italic;flex:1}
+.test__author{display:flex;align-items:center;gap:12px}
+.test__avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--blush),var(--blush-hover));display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:.88rem;font-weight:700;color:#fff;flex-shrink:0}
+.test__name{font-family:'Inter',sans-serif;font-size:.88rem;font-weight:600;color:var(--text-primary)}
+.test__role{font-family:'Inter',sans-serif;font-size:.75rem;color:var(--text-muted)}
+@media(max-width:900px){.test__grid{grid-template-columns:1fr}}

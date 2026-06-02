@@ -1,0 +1,14 @@
+.certs{padding:100px 0;background:var(--bg)}
+.certs__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.certs__card{background:var(--card-bg);border:1px solid var(--border-hover);border-radius:var(--r-xl);padding:24px;display:flex;flex-direction:column;transition:var(--t-base);box-shadow:var(--shadow-sm)}
+.certs__card:hover{box-shadow:var(--shadow-md);border-color:var(--blush)}
+.certs__issuer{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.certs__title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--text-primary);line-height:1.4;margin-bottom:8px;flex:1}
+.certs__date{font-family:'Inter',sans-serif;font-size:.78rem;color:var(--text-muted);margin-bottom:14px}
+.certs__bottom{display:flex;justify-content:space-between;align-items:center}
+.certs__badge{display:inline-flex;align-items:center;gap:4px;background:rgba(216,181,184,.1);border:1px solid rgba(216,181,184,.3);border-radius:999px;padding:4px 10px;font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;color:var(--blush-hover)}
+[data-theme="dark"] .certs__badge{background:rgba(232,83,106,.1);border-color:rgba(232,83,106,.2);color:#E8536A}
+.certs__link{display:inline-flex;align-items:center;gap:4px;font-family:'Inter',sans-serif;font-size:.78rem;color:var(--blush-hover);transition:color .2s}
+.certs__link:hover{color:var(--navy)}
+@media(max-width:900px){.certs__grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.certs__grid{grid-template-columns:1fr}}

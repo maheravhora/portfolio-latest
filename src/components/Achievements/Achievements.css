@@ -1,0 +1,11 @@
+.achievements{padding:100px 0;background:var(--ivory)}
+[data-theme="dark"] .achievements{background:var(--bg)}
+.ach__grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.ach__card{background:var(--card-bg);border:1px solid var(--border-hover);border-radius:var(--r-xl);padding:28px;text-align:center;transition:var(--t-base);box-shadow:var(--shadow-sm)}
+.ach__card:hover{box-shadow:var(--shadow-md);border-color:var(--blush)}
+.ach__icon{font-size:2.4rem;display:block;margin-bottom:14px}
+.ach__title{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:var(--text-primary);margin-bottom:10px}
+.ach__desc{font-size:.85rem;color:var(--text-secondary);line-height:1.7;margin-bottom:16px}
+.ach__badge{display:inline-flex;padding:4px 14px;background:rgba(216,181,184,.12);border:1px solid rgba(216,181,184,.3);border-radius:999px;font-family:'Inter',sans-serif;font-size:.72rem;font-weight:600;color:var(--blush-hover)}
+[data-theme="dark"] .ach__badge{background:rgba(232,83,106,.1);border-color:rgba(232,83,106,.2);color:#E8536A}
+@media(max-width:600px){.ach__grid{grid-template-columns:1fr}}
