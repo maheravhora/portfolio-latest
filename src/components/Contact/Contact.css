@@ -15,3 +15,11 @@
 @keyframes fi{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:900px){.contact__grid{grid-template-columns:1fr}}
 @media(max-width:600px){.contact__form-row{grid-template-columns:1fr}}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);backdrop-filter:blur(5px);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px}
+.modal-content{background:var(--bg);border:1px solid var(--border-hover);border-radius:var(--r-xl);padding:36px;width:100%;max-width:500px;position:relative;box-shadow:var(--shadow-lg)}
+.modal-close{position:absolute;top:20px;right:20px;background:transparent;border:none;color:var(--text-muted);font-size:1.2rem;cursor:pointer;transition:var(--t-fast)}
+.modal-close:hover{color:var(--text-primary)}
+.modal-title{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--text-primary);margin-bottom:8px}
+.modal-subtitle{font-size:.9rem;color:var(--text-secondary);margin-bottom:24px}
+.modal-form{display:flex;flex-direction:column;gap:16px}
+.w-100{width:100%}

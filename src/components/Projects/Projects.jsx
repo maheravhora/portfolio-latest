@@ -41,7 +41,15 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="projects__links">
-                  <a href={p.demo} className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt size={11}/> Live Demo</a>
+                  <a href="#contact" className="btn btn-primary btn-sm" onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                    const textarea = document.querySelector('.contact__textarea');
+                    if (textarea) {
+                      textarea.value = `I would like to view a live demo of the ${p.title} project. Please contact me.`;
+                      textarea.focus();
+                    }
+                  }}><FaExternalLinkAlt size={11}/> Live Demo</a>
                   <a href={p.github} className="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer"><FaGithub size={11}/> GitHub</a>
                 </div>
               </motion.div>

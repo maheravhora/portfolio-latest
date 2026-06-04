@@ -93,6 +93,17 @@ export const techStack = {
 // ─── Projects ─────────────────────────────────────
 export const projectsData = [
   {
+    id: 0,
+    title: 'Mahera.io - Private AI Assistant',
+    category: 'LLMs',
+    description: 'A fully client-side AI chat interface running LLMs (Llama 3.2 3B, Qwen 2.5 7B) directly in the browser via WebGPU. Features 100% data privacy, offline capabilities after caching, and zero server latency.',
+    tags: ['WebGPU', 'WebLLM', 'React', 'Offline AI', 'Privacy'],
+    github: '#',
+    demo: '#',
+    featured: true,
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=600',
+  },
+  {
     id: 1,
     title: 'AI SQL Chatbot',
     category: 'LLMs',
